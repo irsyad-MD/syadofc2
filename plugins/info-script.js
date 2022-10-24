@@ -4,7 +4,7 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let str = `*-
 sc ini: ga ada
-buy bang ga grtis komtil🥲`
+pc owner 🥲`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'O W N E R','.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
